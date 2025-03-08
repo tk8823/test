@@ -10,6 +10,7 @@
 <title>販売支援システム（テスト）</title>
 </head>
 <body>
+<jsp:include page="header.jsp" />
 <div style="text-align:center;">
  <h2>販売支援システム（テスト）</h2>
  <h2>ログイン画面</h2>
@@ -25,7 +26,7 @@
 <br>
 
 <div style="text-align:center">
- <form action="/jsys/jsysFC" method="post">
+ <form action="/EmployeeManagement_test/jsysFC" method="post">
   従業員番号 <input type="text" maxlength="6" name="empNo" value="<c:out value="${ param.empNo }" />"><br>
   パスワード <input type="password" maxlength="6" name="password" value="<c:out value="${ param.password }" />"><br>
   <button style="width:100px; margin-top:5px" type="submit" name="buttonId" value="V101_01_01">ログイン</button>
