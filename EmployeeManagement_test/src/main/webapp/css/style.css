@@ -1,0 +1,101 @@
+/*
+form {
+	text-align: center;
+	width: 200px;
+	margin: auto;
+}
+*/
+
+button {
+	width: 200px;
+}
+
+table {
+	/*
+	margin: 0 auto;
+	width: 100%;
+	box-sizing: border-box;
+	*/
+	width: 500px;
+}
+
+td {
+	vertical-align: middle;
+}
+
+input {
+	vertical-align: middle;
+}
+
+.spacer {
+	display: block;
+	height: 5px;
+}
+
+.to-main {
+	margin-right: 10px;
+	position: absolute;
+	right: 0
+}
+
+.header-employee {
+	font-weight: bold;
+	position: absolute;
+	right: 50px;
+}
+
+.grand-total {
+	margin-right: 0;
+	position: absolute;
+}
+
+.list {
+	margin: 0 auto;
+	width: 500px;
+}
+
+.list>* {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.custCode {
+	width: 100px;
+}
+
+.custName {
+	width: 200px;
+}
+
+.quantity {
+	width: 100px;
+}
+
+.unitPrice {
+	width: 100px;
+}
+
+.totalPrice {
+	width: 150px;
+}
+
+.table-space {
+	width: 400px;
+}
+
+.grandTotal {
+	text-align: right;
+	width: 250px;
+}
+
+td.quantity {
+	text-align: right;
+}
+
+td.unitPrice {
+	text-align: right;
+}
+
+td.totalPrice {
+	text-align: right;
+}
